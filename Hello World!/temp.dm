@@ -3,7 +3,16 @@
 // This is a proc `Login()` defined on a base mob. We'll learn more about those later.
 /mob/Login()
 
-    // Statements here are executed when a mob logs into the game
+	// Statements here are executed when a mob logs into the game
 
-    // Print text to world
-    world << "Hello World!"
+	// Print text to world
+	world << "Hello World!"
+	world << "I'm Steve"
+
+	var/textLine = "Kali"
+	world << textLine
+
+	var/str = "Multi \
+		   Line \
+		   String"
+	world << str
